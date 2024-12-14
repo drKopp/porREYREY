@@ -94,7 +94,7 @@ var styleArray = [
 
 // Create a map object and specify the DOM element for display.
 // The latitude and longitude to center the map (always required)
-var latlng = new google.maps.LatLng(46.984229, -21.924067);
+var latlng = new google.maps.LatLng(-21.924067, 46.984229);
 var map = new google.maps.Map(document.getElementById("map"), {
   center: latlng, 
   scrollwheel: false,
