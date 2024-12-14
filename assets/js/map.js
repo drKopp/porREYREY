@@ -97,7 +97,7 @@ var styleArray = [
 var latlng = new google.maps.LatLng(-21.924067, 46.984229);
 var map = new google.maps.Map(document.getElementById("map"), {
   center: latlng, 
-  scrollwheel: false,
+  scrollwheel: true,
 // Apply the map style array to the map.
 // How zoomed in you want the map to start at (always required)
 styles: styleArray,
